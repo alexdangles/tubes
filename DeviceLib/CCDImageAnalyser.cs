@@ -1,10 +1,3 @@
-﻿//CCDImage Analyser.... written and transcribed by Eric Draper July-2014
-//This Class is used to Analyse a passed in XRay spot image, that was produced at the CCD machine. It inherrits down all the attributes of a Picture box, with 
-//Customized code used for the analysis of specific xray Images
-
-//Rules for Updating.
-//Follow the design and standards in heading 
-
 using Microsoft.VisualBasic;
 using System;
 using System.Collections.Generic;
