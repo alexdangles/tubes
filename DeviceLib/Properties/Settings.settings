@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Devices.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="AdminByte" Type="System.Byte" Scope="User">
+      <Value Profile="(Default)">82</Value>
+    </Setting>
+    <Setting Name="SpellmanPort" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">50001</Value>
+    </Setting>
+    <Setting Name="UTCPort" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">9000</Value>
+    </Setting>
+    <Setting Name="ESPECPort" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">57732</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

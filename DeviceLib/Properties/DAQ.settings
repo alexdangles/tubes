@@ -1,0 +1,48 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Devices.Properties" GeneratedClassName="DAQ">
+  <Profiles />
+  <Settings>
+    <Setting Name="inputVoltage" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Input Voltage</Value>
+    </Setting>
+    <Setting Name="inputCurrent" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Input Current</Value>
+    </Setting>
+    <Setting Name="beamCurrentMonitor" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Beam Current Monitor</Value>
+    </Setting>
+    <Setting Name="beamCurrentSetMonitor" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Beam Current Set Monitor</Value>
+    </Setting>
+    <Setting Name="kVMonitor" Type="System.String" Scope="User">
+      <Value Profile="(Default)">kV Monitor</Value>
+    </Setting>
+    <Setting Name="kVSetMonitor" Type="System.String" Scope="User">
+      <Value Profile="(Default)">kV Set Monitor</Value>
+    </Setting>
+    <Setting Name="kVEnableAnalog" Type="System.String" Scope="User">
+      <Value Profile="(Default)">kV Enable Analog</Value>
+    </Setting>
+    <Setting Name="tubeFilamentReady" Type="System.String" Scope="User">
+      <Value Profile="(Default)">TFR</Value>
+    </Setting>
+    <Setting Name="photoDiode" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Photo diode</Value>
+    </Setting>
+    <Setting Name="kVEnableDigital" Type="System.String" Scope="User">
+      <Value Profile="(Default)">kV Enable Digital</Value>
+    </Setting>
+    <Setting Name="interlock" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Interlock Feed Back</Value>
+    </Setting>
+    <Setting Name="kVSet" Type="System.String" Scope="User">
+      <Value Profile="(Default)">kV Set</Value>
+    </Setting>
+    <Setting Name="beamCurrentSet" Type="System.String" Scope="User">
+      <Value Profile="(Default)">uA Set</Value>
+    </Setting>
+    <Setting Name="numOfSamples" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">5</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
