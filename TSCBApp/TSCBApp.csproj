@@ -1,0 +1,287 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9F6E54DF-8050-423B-B9EA-F6DDE518697A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TSCB</RootNamespace>
+    <AssemblyName>TSCB</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>\\Moxfileshare_01\Technology\Software\Tubes\TSCB\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Unc</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Background</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <SupportUrl>http://moxtek.com/contact-us/</SupportUrl>
+    <ProductName>Moxtek X-ray Tube Characterization Software</ProductName>
+    <PublisherName>Moxtek, Inc.</PublisherName>
+    <ApplicationRevision>13</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Win32Resource>
+    </Win32Resource>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Resources\icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>33E9E05F840297654F85EFB9305602BF59BC5C31</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>TSCBApp_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="TSCBApp_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\045_-_activity-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\26025.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7218-3186077.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7662_motorized_wheel_fw212c_sgl.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\about1600.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arduino.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cdaq.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\circled_pause1600.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\color-icon-12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\datatable.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\duplicate_file-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\end-window-monoblock.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\environmental-test-chamber-_1_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fan.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fire.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\firewire_400_color.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\geiger counter.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hockey_funny.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\humidity-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ktvuzq36z9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\monitor.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mxdpp-50-box-version.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ni-8542.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nidaq.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\no tube image.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\oojs_ui_icon_advanced.svg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\player-stop-outline-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\power-sign_318-56454.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\programming-save-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\set.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\temp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\time1600.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unnamed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_male2-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wave_cosine_line_science_sinusoid_graph_2-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zup-200.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DeviceLib\DeviceLib.csproj">
+      <Project>{2e500401-718f-45a1-a6fb-6593c4d2544c}</Project>
+      <Name>DeviceLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HelperLib\HelperLib.csproj">
+      <Project>{14ba7023-821a-4ce8-abb4-69a111bee21f}</Project>
+      <Name>HelperLib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="LVFunctions.dll" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
