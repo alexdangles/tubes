@@ -1,0 +1,73 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="BurnInStns.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="LogSaveFreq" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">60</Value>
+    </Setting>
+    <Setting Name="BCScanPort" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">13000</Value>
+    </Setting>
+    <Setting Name="UDPServerPort" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">9500</Value>
+    </Setting>
+    <Setting Name="TubesConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=ESP\XRAY;Initial Catalog=Tubes;Integrated Security=True&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=ESP\XRAY;Initial Catalog=Tubes;Integrated Security=True</Value>
+    </Setting>
+    <Setting Name="PLCRoute" Type="System.String" Scope="User">
+      <Value Profile="(Default)">5.45.76.0.1.1</Value>
+    </Setting>
+    <Setting Name="PLCPort" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">851</Value>
+    </Setting>
+    <Setting Name="CurrentlyTesting" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="Domain" Type="System.String" Scope="User">
+      <Value Profile="(Default)">10.30.1.</Value>
+    </Setting>
+    <Setting Name="SaveData" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="SettingsTable" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ArcLabBurnInSettings</Value>
+    </Setting>
+    <Setting Name="ResultsTable" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ArcLabBurnInResults</Value>
+    </Setting>
+    <Setting Name="SpellmanIP" Type="System.String" Scope="User">
+      <Value Profile="(Default)">1 None
+2 None
+3 None
+4 None
+5 None
+6 None
+7 None
+8 None
+9 None
+10 None
+11 None
+12 None
+13 None
+14 None
+15 None</Value>
+    </Setting>
+    <Setting Name="SaveFolder" Type="System.String" Scope="User">
+      <Value Profile="(Default)">D:\Burn-in Stations\Logs</Value>
+    </Setting>
+    <Setting Name="EquipStatusTable" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ArcLabEquipmentStatus</Value>
+    </Setting>
+    <Setting Name="BurnInStatusTable" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ArcLabStationStatusBRN</Value>
+    </Setting>
+    <Setting Name="PSEnabled" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
