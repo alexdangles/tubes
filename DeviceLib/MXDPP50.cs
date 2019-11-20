@@ -1,12 +1,3 @@
-﻿///-----------------------------------------------------------------
-/// Company:        Moxtek
-/// Author:         Chris R. Carter
-/// Date:           03/18/2016
-/// Description:    This class/dll handles all the communication to
-///                 and from the Moxtek MXDPP50.
-/// Dependents:     FTDI "FTD2XX_NET.dll"
-///-----------------------------------------------------------------
-
 using System;
 using System.Collections.Generic;
 using System.Linq;
