@@ -1,9 +1,3 @@
-// *****************************************************************************
-//
-//     Copyright (c) 2013, Pleora Technologies Inc., All rights reserved.
-//
-// *****************************************************************************
-
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
